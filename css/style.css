@@ -101,6 +101,7 @@ footer{
     background-color:#222222 ;
     border: none ;
     color: white;
+    font-size: 16px;
 }
 .green > i{
     color: greenyellow;
