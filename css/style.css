@@ -11,6 +11,17 @@ body {
 main{
     background-color: black;
 }
+span:hover{
+    cursor: pointer;
+
+}
+span{
+    display: flex;
+    justify-content: space-around;
+}
+footer > span{
+    height: 100%;
+}
 /* MAIN */
 .spectator{
     background-color: black;
@@ -18,11 +29,12 @@ main{
     justify-content: flex-end;
 }
 .speak, .x{
-    background-color: darkslategray;
+    background-color: gray;
     color: white;
     padding: 4px;
     border-radius: 5px;
     margin: 2px;
+    display: inline-block;
 }
 .container {
     width: 80%;
@@ -51,18 +63,52 @@ main{
     position: absolute;
     bottom: 0;
     left: 0;
-    background-color: darkslategray;
+    background-color: gray;
+    opacity: 0,5;
     color: white;
     border-radius: 3px;
-    width: 50%;
+    width: 40%;
     font-size: 50%;
     padding: 2px;
 }
 /* FOOTER */
 footer{
     height: 20vh;
-    background-color: darkslategrey;
+    background-color:#222222;
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+.items {
+    display: inline-block;
+    margin: 8px;
+}
+i{
+    display: inline-block;
+    color: white;
+}
+p, i, a{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+p{
+    padding-right: 10px;
+}
+.special .items{
+    color: greenyellow;
+}
+.end-meeting, .audio{
+    display: flex;
+    width: 200px;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.end-meeting:hover{
+    background-color: #4a4a4a;
+    cursor: pointer;
+}
+.items > a{
+    color: red;
 }
